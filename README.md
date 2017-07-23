@@ -1,4 +1,4 @@
-This fork has been modified to include a [check](https://github.com/danielkberry/pronounceable/blob/master/pronounceable.js#L167-#L174) which requires all pronounceable words to have at least one vowel in them. 
+This fork has been modified to include a [check](https://github.com/danielkberry/pronounceable/blob/master/pronounceable.js#L167-#L174) which requires all pronounceable words to have at least one vowel in them as well as determining all words with a number in them as [pronounceable](https://github.com/danielkberry/pronounceable/blob/master/pronounceable.js#L32-L33). 
 
 # pronounceable
 
