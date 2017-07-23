@@ -17,7 +17,7 @@ var triples = JSON.parse(
 // Remove any non-alphabet characters
 // and convert to lower case.
 function clean(word) {
-    return word.replace(/[^a-zA-Z]/g, "").toLowerCase();
+    return word.replace(/[^a-zA-Z0-9]/g, "").toLowerCase();
 }
 
 // Make a percentage.
@@ -29,6 +29,8 @@ function percent(score, count) {
 function undef(w, i, depth, probs) {
     if (depth <= 1) return typeof probs[w[i]] === "undefined";
     if (typeof probs[w[i]] === "undefined") return true;
+    var nums = '0123456789';
+    if (nums.indexOf(w[i]) !== -1) return true;
     return undef(w, i + 1, depth - 1, probs[w[i]]);
 }
 
