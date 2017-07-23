@@ -1,3 +1,5 @@
+This fork has been modified to include a [check](https://github.com/danielkberry/pronounceable/blob/master/pronounceable.js#L167-#L174) which requires all pronounceable words to have at least one vowel in them. 
+
 # pronounceable
 
 [![Build Status](https://travis-ci.org/lukem512/pronounceable.svg?branch=master)](https://travis-ci.org/lukem512/pronounceable) ![Dependency Status](https://david-dm.org/lukem512/pronounceable.svg) [![npm](https://img.shields.io/npm/l/pronounceable.svg)](https://www.npmjs.com/package/pronounceable) [![npm](https://img.shields.io/npm/v/pronounceable.svg)](https://www.npmjs.com/package/pronounceable) [![npm](https://img.shields.io/npm/dm/pronounceable.svg)](https://www.npmjs.com/package/pronounceable)
